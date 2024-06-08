@@ -13,7 +13,7 @@ const AboutUs = () => (
       <div className="app__aboutus-content_about">
         <h1 className="headtext__cormorant">About Us</h1>
         <img src={images.spoon} alt="about_spoon" className="spoon__img" />
-        <p className="p__opensans">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra adipiscing ultrices vulputate posuere tristique. In sed odio nec aliquet eu proin mauris et.</p>
+        <p className="p__opensans">Nestled in the heart of Gerum, Majestic City is a haven for food enthusiasts. Our philosophy is simple: offer an unforgettable dining experience through exceptional cuisine, impeccable service, and a warm, inviting ambiance. We are dedicated to delighting your senses and making every visit a memorable occasion.</p>
         <button type="button" className="custom__button">Know More</button>
       </div>
 
@@ -24,7 +24,7 @@ const AboutUs = () => (
       <div className="app__aboutus-content_history">
         <h1 className="headtext__cormorant">Our History</h1>
         <img src={images.spoon} alt="about_spoon" className="spoon__img" />
-        <p className="p__opensans">Adipiscing tempus ullamcorper lobortis odio tellus arcu volutpat. Risus placerat morbi volutpat habitasse interdum mi aliquam In sed odio nec aliquet.</p>
+        <p className="p__opensans">Founded in 1990, Majestic Restaurant started as a dream to bring innovative and high-quality dining to Gerum City. Over the years, we have grown from a small establishment into a renowned dining destination, celebrated for our commitment to excellence and our passion for culinary artistry.</p>
         <button type="button" className="custom__button">Know More</button>
       </div>
     </div>

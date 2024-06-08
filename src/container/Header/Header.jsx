@@ -8,9 +8,9 @@ const Header = () => (
   <div className="app__header app__wrapper section__padding" id="home">
     <div className="app__wrapper_info">
     <SubHeading title = "Chase the new flavour" />
-    <h1>The Key To Fine Dining</h1>
+    <h1 className="headtext__cormorant">The Key To Fine Dining</h1>
     <p className="p__opensans" style={{margin : '2rem 0'}}>
-      Sit tellus lobortis sed senectus vivamus molestie. Condimentum volutpat morbi facilisis quam scelerisque sapien. Et, penatibus aliquam amet tellus  
+    Indulge in an exquisite culinary journey where each bite promises an adventure. At Majestic Restaurant, we believe in chasing new flavors, curating dishes that redefine the essence of fine dining. Come, savor the magic, and discover why we are the epitome of gourmet excellence.
     </p>
     <button type="button" className="custom__button">Explore Menu</button>
     </div>

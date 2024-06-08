@@ -16,13 +16,13 @@ const Chef = () => (
       <div className="app__chef-content">
         <div className="app__chef-content_quote">
           <img src={images.quote} alt="quote_image" />
-          <p className="p__opensans">Lorem ipsum dolor sit amet, consectetur adipiscing elit auctor sit .</p>
+          <p className="p__opensans">Cooking is not just a profession;</p>
         </div>
-        <p className="p__opensans"> auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisque congue ac consequat, aliquam molestie lectus eu. Congue iaculis integer curabitur semper sit nunc. </p>
+        <p className="p__opensans">  it's an art form that requires passion, dedication, and a relentless pursuit of perfection. At Majestic Restaurant, we believe in using the finest ingredients, embracing creativity, and honoring traditions to craft dishes that tell a story. Every plate is a testament to our love for food and our desire to provide an extraordinary dining experience.</p>
       </div>
 
       <div className="app__chef-sign">
-        <p>Kevin Luo</p>
+        <p>Kane Luo</p>
         <p className="p__opensans">Chef & Founder</p>
         <img src={images.sign} alt="sign_image" />
       </div>

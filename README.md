@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# Project Management App
+Sebuah halaman utama website restoran responsive yang bernama majestic-restaurant yang digunakan untuk mengenalkan retoran tersebut secara umum. Mulai dari perkenalan awal, menu, kontak, dan lainnya
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Daftar Isi
+- [Tumpukan Teknologi](#tumpukan-teknologi)
+- [Fitur](#fitur)
+- [Dokumentasi Halaman](#dokumentasi-halaman)
+- [Cara Instalasi](#cara-instalasi)
+- [Cara Penggunaan](#cara-penggunaan)
 
-## Available Scripts
+## Tumpukan Teknologi
+### Frontend
+- **ReactJS**: Perpustakaan UI untuk membangun antarmuka pengguna
+- **CSS (Cascading Style Sheets)**: Bahasa stylesheet untuk mengatur tampilan dokumen web
 
-In the project directory, you can run:
+### Metodologi CSS
+- **BEM (Block Element Modifier)**: Metodologi penamaan kelas CSS yang membantu dalam struktur dan pemeliharaan kode CSS. Dengan BEM, kelas-kelas diberi nama berdasarkan struktur blok, elemen, dan modifikator.
 
-### `npm start`
+## Tampilan Website
+- **Navbar =** halaman navigasi untuk mengarahkan ke beberapa halaman dan untuk otentikasi pengguna
+- **Hero =** halaman perkenalan restoran ke pengguna
+- **Tentang Restoran =** deskripsi restoran lebih rinci lagi
+- **Sejarah Restoran =** sejarah restoran dari awal beridiri
+- **Menu Spesial =** tampilan menu unggukan di restoran 
+- **Sambutan Pemilik =** sambutan kata - kata kepada pengguna 
+- **Tampilan Restoran =** tampilan susana restoran dengan video
+- **Penghargaan =** penghargaan restoran yang telah diraih
+- **Galeri =** galeri beberapa menu restoran
+- **Langganan Berita =** langganan ke berita yang terjadi di restoran
+- **Informasi Kontak =** kontak untuk menghubungi maupun mengetahui alamat
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Beberapa Dokumentasi Halaman
+##### 1. Halaman Awal
+![Dokumentasi Halaman](Dokumentasi.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+##### 2. Halaman Menu
+![Dokumentasi Halaman](Dokumentasi2.png)
 
-### `npm test`
+##### 3. Halaman Kaki
+![Dokumentasi Halaman](Dokumentasi3.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Cara Instalasi
+Instruksi langkah demi langkah untuk menginstal proyek Anda secara lokal.
 
-### `npm run build`
+```bash
+# Clone repository ini
+git clone https://github.com/defrijay/Majestic-Morsels-Restaurant.git
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Masuk ke direktori proyek
+cd repository-name
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Instal dependensi
+npm install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Jalankan server kodenya secara live
+npm start --watch
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Buka url servernya
+ http://localhost:3000
