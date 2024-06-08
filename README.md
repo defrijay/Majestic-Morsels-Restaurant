@@ -1,4 +1,4 @@
-# Project Management App
+# Majestic Restaurant
 Sebuah halaman utama website restoran responsive yang bernama majestic-restaurant yang digunakan untuk mengenalkan retoran tersebut secara umum. Mulai dari perkenalan awal, menu, kontak, dan lainnya
 
 ## Daftar Isi
