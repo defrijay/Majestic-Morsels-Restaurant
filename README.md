@@ -3,8 +3,8 @@ Sebuah halaman utama website restoran responsive yang bernama majestic-restauran
 
 ## Daftar Isi
 - [Tumpukan Teknologi](#tumpukan-teknologi)
-- [Fitur](#fitur)
-- [Dokumentasi Halaman](#dokumentasi-halaman)
+- [Tampilan Website](#tampilan-website)
+- [Beberapa Dokumentasi Halaman](#beberapa-dokumentasi-halaman)
 - [Cara Instalasi](#cara-instalasi)
 - [Cara Penggunaan](#cara-penggunaan)
 
